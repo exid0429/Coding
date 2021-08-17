@@ -1,0 +1,45 @@
+IDE(통합개발환경 Integrated Development Enviroment,IDE)란 공통된 개발자 툴을 하나의 그래픽 사용자 인터페이스로 결합하는 애플리케이션을 구축하기 위한 소프트웨어.
+
+activity =화면 하나라고 생각, 스플레쉬 화면 같은거.
+
+SDK = 소프트웨어 개발 키트
+
+import 단축키 : alt 엔터 맥기준 option 엔터
+
+layout에서
+andriod:textSize="58sp"
+android:textColor="#000000" // black , ffffff //white hex
+@color/black
+
+xml에서 화면구성
+textivew가 웬지 hello world를 가르키는거같음.
+
+LinearLayout
+=>직관적인 친구.블락임.1 2 착착착 쌓이는 구조랑 비슷함.
+
+Relative Layout
+=>상대적인 기준으로 하는 레이아웃. 1번을 기준으로 해서 2번을 레이아웃 배치함.
+
+Constraint Layout
+=>1번버튼을 기준으로 1번과 2번사이를 100만큼 띄워라~
+각각의 항목에 비례해서. 
+1.메뉴바  2.검색버튼 3.setting버튼
+디바이스 크기에 비례해서 띄운다 기존에랑
+
+Linear Layout
+Linear Layout
+Linear Layout
+
+android:orientation="vertical" //수직으로
+
+클릭이 되면 무슨일이 일어나게 하고싶다!
+
+사진클릭 => 프로그램이 인지 => 어떻게 하라!
+
+컴퓨터가 스페이스는 인지하지 못하기 때문에 _를 이용함.
+
+변수는 값을 담아놓는 박스
+
+화면전환은 intent를 통해서.
+
+
